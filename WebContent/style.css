@@ -1,0 +1,48 @@
+/*style.css
+/*ǥ�� �۲� ���� ��Ÿ��*/
+h1,h2,h3,h4,h5,h6{
+	font-family:verdana;
+	color:navy;
+}
+body, td, input, select, textarea, p, th{
+	font-size:13px;
+	font-family:verdana;
+	color:navy;
+	padding:4px;
+}
+
+/*ǥ�� ��ũ ��Ÿ��*/
+a:link{
+	color:#000000; text-decoration:none;
+	font-size:13px; font-family:verdana;
+}
+a:visited{
+	color:#800080; text-decoration:none;
+	font-size:13px; font-family:verdana;
+}
+a:hover{
+	color:orange; text-decoration:underline;
+	font-size:13px; font-family:verdana;
+}
+
+/*�Է� ��� ��Ÿ�� .�� class�� #�� id��*/
+.box{
+	border:1px solid navy;
+	padding-left:8px;
+}
+.outline{
+	border-top:4px double navy;
+	border-bottom:4px double navy;
+}
+.m1{
+background-color:#EAF0E8;
+border-bottom:1px dotted #9933CC;
+}
+.m2{
+background-color:#80ffff;
+border-bottom:1px dotted #9933CC;
+}
+.m3{
+border-bottom:1px dotted navy;
+}
+
