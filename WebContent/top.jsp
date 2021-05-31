@@ -41,6 +41,13 @@
 				</td>
 			</tr>
 			<tr height="80%">
-				<td width="20%" valign="top">tree/view
+				<td width="20%" valign="top">
+<%           if(isLogin){    %>
+					<b>[<%=name%>]님이 로그인중...</b>
+<%          }else{    %>
+					<b>로그인을 해주세요</b>
+<%           }    %>
+					<br><br>
+				<jsp:include page="/count/count.jsp"/>
 				</td>
 				<td>
